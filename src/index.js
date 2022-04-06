@@ -1,5 +1,6 @@
 const { add, baseUrl } = require("./fn");
 const { generateUser } = require("./casual");
+const { generateAdress } = require("./casual");
 
 // console.log("fn===", fn);
 // console.log("baseUrl===", baseUrl);
@@ -16,5 +17,8 @@ const rez1 = fn.add(10, 50);
 //ES6 module export - export, export default
 //ES6 module import - import {sum} from './fn/js'
 
-generateUser();
+// generateUser();
 console.log("index.js===", generateUser());
+
+// generateAdress();
+console.log("index.js===", generateAdress);

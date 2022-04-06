@@ -38,6 +38,10 @@ const generateUser = () => {
 const u = generateUser();
 console.log("u===", u);
 
+// module.exports = {
+//   generateUser,
+// };
+
 module.exports = {
-  generateUser,
+  generateAdress,
 };
